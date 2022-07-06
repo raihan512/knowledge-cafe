@@ -94,32 +94,55 @@ background-color: #FFEEEE;
 .green-box{
     background-color: rgba(79, 157, 166, 0.1);
 }
-.event-header{
-    display: flex;
-    justify-content: space-between;
-}
 .event-btn{
     font-size: 20px;
     text-decoration: none;
     color: #FF5959;
+    display: block;
+    text-align: right;
 }
 .event-box{
     display: flex;
-    border: 1px solid #707070;
-}
-.event-img{
-    width: 30%;
-}
-.event-img img{
-    width: 100%;
+    border: 1px solid #FF5959;
+    margin-bottom: 10px;
 }
 .event-details{
-    width: 40%;
+    width: 70%;
+    padding: 20px;
 }
 .event-date{
     width: 30%;
-    border-left: 1px solid #707070;
+    border-left: 1px solid #FF5959;
     text-align: center;
+    padding-top: 30px;
+}
+.date{
+    font-size: 60px;
+    color: #FF5959;
+    font-weight: bold;
+    margin: 0;
+}
+.month{
+    font-size: 22px;
+    color: #FF5959;
+}
+.time-location{
+    display: flex;
+}
+h5{
+    margin-right: 10px;
+}
+.event-icon{
+    height: 12px;
+}
+.read-more{
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 10px;
+    color: #FF5959;
+    margin-left: auto;
+    text-decoration: none;
+    border: 1px solid #FF5959;
 }
 .email-box{
     padding: 50px;
