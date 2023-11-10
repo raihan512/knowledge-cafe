@@ -1,6 +1,6 @@
 import React from "react";
 import { BsBookmark, BsBookmarkFill } from "react-icons/bs";
-const Blog = ({ blog, calculateMin, handleBookMark }) => {
+const Blog = ({ blog, calculateMin }) => {
   const { id, img, title, date, time, author, autohorImg, tags } = blog;
 
   return (
@@ -22,7 +22,7 @@ const Blog = ({ blog, calculateMin, handleBookMark }) => {
         {/* Time to read and add to bookmark btn */}
         <div className="flex items-center">
           <p className="mr-2">{time} min read</p>
-          <button onClick={() => handleBookMark(id)}>
+          <button>
             <BsBookmark />
           </button>
         </div>
