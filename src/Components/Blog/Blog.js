@@ -1,7 +1,14 @@
 import React from "react";
 import { BsBookmark, BsBookmarkFill } from "react-icons/bs";
-const Blog = ({ blog, calculateMin }) => {
-  const { id, img, title, date, time, author, autohorImg, tags } = blog;
+import { Toaster } from "react-hot-toast";
+const Blog = ({ blog, calculateMin, handleBookMark, bookmark }) => {
+  const { id, img, title, date, time, author, autohorImg, tags, booked } = blog;
+
+  let isBooked;
+
+  for (let item of bookmark) {
+    isBooked = item.id === id;
+  }
 
   return (
     <div className="py-5 border-b">
@@ -22,9 +29,11 @@ const Blog = ({ blog, calculateMin }) => {
         {/* Time to read and add to bookmark btn */}
         <div className="flex items-center">
           <p className="mr-2">{time} min read</p>
-          <button>
-            <BsBookmark />
+          <button onClick={() => handleBookMark(blog)}>
+            {isBooked ? <BsBookmarkFill /> : <BsBookmark />}
+            {/* <BsBookmark /> */}
           </button>
+          <Toaster />
         </div>
       </div>
       {/* title and tags */}
