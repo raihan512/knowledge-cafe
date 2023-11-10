@@ -2,51 +2,101 @@
   {
     "id": 1,
     "title": "How to get your first job as a self-taught programmer",
-    "img": "https://burst.shopifycdn.com/photos/javascript-with-laptop-code.jpg"
+    "img": "https://burst.shopifycdn.com/photos/javascript-with-laptop-code.jpg",
+    "time": 5,
+    "date": "Mar 05 2023",
+    "author": "MR. Raju",
+    "autohorImg": "https://sb.kaleidousercontent.com/67418/1920x1545/c5f15ac173/samuel-raita-ridxdghg7pw-unsplash.jpg",
+    "tags": ["beginner", "programming"]
   },
   {
     "id": 2,
     "title": "Sell mens fashion online",
-    "img": "https://burst.shopifycdn.com/photos/fashion-toronto-watch.jpg"
+    "img": "https://burst.shopifycdn.com/photos/fashion-toronto-watch.jpg",
+    "time": 5,
+    "date": "Mar 02 2023",
+    "author": "Rajib Hossain",
+    "autohorImg": "https://sb.kaleidousercontent.com/67418/1920x1545/c5f15ac173/samuel-raita-ridxdghg7pw-unsplash.jpg",
+    "tags": ["beginner", "programming"]
   },
   {
     "id": 3,
     "title": "How to maintain your daily routine",
-    "img": "https://burst.shopifycdn.com/photos/creating-a-programming-to-do-list.jpg"
+    "img": "https://burst.shopifycdn.com/photos/creating-a-programming-to-do-list.jpg",
+    "time": 5,
+    "date": "May 19 2023",
+    "author": "Borhan Ashrafi",
+    "autohorImg": "https://sb.kaleidousercontent.com/67418/1920x1545/c5f15ac173/samuel-raita-ridxdghg7pw-unsplash.jpg",
+    "tags": ["beginner", "programming"]
   },
   {
     "id": 4,
     "title": "Effiecient way to write better code",
-    "img": "https://burst.shopifycdn.com/photos/developer-coding-in-php.jpg"
+    "img": "https://burst.shopifycdn.com/photos/developer-coding-in-php.jpg",
+    "time": 5,
+    "date": "Jan 08 2022",
+    "author": "Sahadat Hossain",
+    "autohorImg": "https://sb.kaleidousercontent.com/67418/1920x1545/c5f15ac173/samuel-raita-ridxdghg7pw-unsplash.jpg",
+    "tags": ["beginner", "programming"]
   },
   {
     "id": 5,
     "title": "Manage your worklife and personallife, Like a pro",
-    "img": "https://burst.shopifycdn.com/photos/student-works-on-laptop.jpg?width=925&format=pjpg&exif=0&iptc=0"
+    "img": "https://burst.shopifycdn.com/photos/student-works-on-laptop.jpg?width=925&format=pjpg&exif=0&iptc=0",
+    "time": 5,
+    "date": "Feb 06 2021",
+    "author": "Mamun Hossain",
+    "autohorImg": "https://sb.kaleidousercontent.com/67418/1920x1545/c5f15ac173/samuel-raita-ridxdghg7pw-unsplash.jpg",
+    "tags": ["beginner", "programming"]
   },
   {
     "id": 6,
     "title": "How to plan for your code",
-    "img": "https://burst.shopifycdn.com/photos/developer-leading-planning-session.jpg?width=925&format=pjpg&exif=0&iptc=0"
+    "img": "https://burst.shopifycdn.com/photos/developer-leading-planning-session.jpg?width=925&format=pjpg&exif=0&iptc=0",
+    "time": 5,
+    "date": "Dec 15 2022",
+    "author": "Mohammad Rafique",
+    "autohorImg": "https://sb.kaleidousercontent.com/67418/1920x1545/c5f15ac173/samuel-raita-ridxdghg7pw-unsplash.jpg",
+    "tags": ["beginner", "programming"]
   },
   {
     "id": 7,
     "title": "Be productive within short time",
-    "img": "https://burst.shopifycdn.com/photos/desk-office-workspace-flatlay.jpg?width=925&format=pjpg&exif=0&iptc=0"
+    "img": "https://burst.shopifycdn.com/photos/desk-office-workspace-flatlay.jpg?width=925&format=pjpg&exif=0&iptc=0",
+    "time": 5,
+    "date": "Nov 25 2022",
+    "author": "Golam Mostafa Shawon",
+    "autohorImg": "https://sb.kaleidousercontent.com/67418/1920x1545/c5f15ac173/samuel-raita-ridxdghg7pw-unsplash.jpg",
+    "tags": ["beginner", "programming"]
   },
   {
     "id": 8,
     "title": "Things you need to know for being fit",
-    "img": "https://burst.shopifycdn.com/photos/arm-workout.jpg?width=925&format=pjpg&exif=0&iptc=0"
+    "img": "https://burst.shopifycdn.com/photos/arm-workout.jpg?width=925&format=pjpg&exif=0&iptc=0",
+    "time": 5,
+    "date": "April 21 2022",
+    "author": "Imran Hossain",
+    "autohorImg": "https://sb.kaleidousercontent.com/67418/1920x1545/c5f15ac173/samuel-raita-ridxdghg7pw-unsplash.jpg",
+    "tags": ["beginner", "programming"]
   },
   {
     "id": 9,
     "title": "Scientific way to sharp your brain",
-    "img": "https://burst.shopifycdn.com/photos/students-study-and-prepare-as-team.jpg?width=925&format=pjpg&exif=0&iptc=0"
+    "img": "https://burst.shopifycdn.com/photos/students-study-and-prepare-as-team.jpg?width=925&format=pjpg&exif=0&iptc=0",
+    "time": 5,
+    "date": "June 11 2023",
+    "author": "Rahmatullah Akash",
+    "autohorImg": "https://sb.kaleidousercontent.com/67418/1920x1545/c5f15ac173/samuel-raita-ridxdghg7pw-unsplash.jpg",
+    "tags": ["beginner", "programming"]
   },
   {
     "id": 10,
     "title": "Be success in your academic career",
-    "img": "https://burst.shopifycdn.com/photos/learning-code-is-fun.jpg?width=925&format=pjpg&exif=0&iptc=0"
+    "img": "https://burst.shopifycdn.com/photos/learning-code-is-fun.jpg?width=925&format=pjpg&exif=0&iptc=0",
+    "time": 5,
+    "date": "Aug 04 2023",
+    "author": "Shakib Al-hasan",
+    "autohorImg": "https://sb.kaleidousercontent.com/67418/1920x1545/c5f15ac173/samuel-raita-ridxdghg7pw-unsplash.jpg",
+    "tags": ["beginner", "programming"]
   }
 ]
