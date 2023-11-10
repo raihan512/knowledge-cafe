@@ -1,0 +1,7 @@
+.bookmark-item {
+  margin-bottom: 20px;
+}
+
+.bookmark-item:last-child {
+  margin-bottom: 0;
+}
