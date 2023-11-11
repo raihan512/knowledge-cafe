@@ -9,7 +9,7 @@ const Blog = ({ blog, calculateMin, handleBookMark, bookmark }) => {
   return (
     <div className="py-5 border-b">
       {/* Image */}
-      <img src={img} className="rounded-md" alt="" />
+      <img src={img} className="rounded-md w-full" alt="" />
       {/* Summary */}
       <div className="flex justify-between items-center my-5">
         {/* Author image, name and published date */}
@@ -34,9 +34,11 @@ const Blog = ({ blog, calculateMin, handleBookMark, bookmark }) => {
       </div>
       {/* title and tags */}
       <div>
-        <h3 className="font-bold text-2xl mb-2 color-[#111111]">{title}</h3>
+        <h3 className="font-bold text-xl md:text-2xl mb-2 color-[#111111]">
+          {title}
+        </h3>
         <p className="mb-10">
-          <span className="mr-2 text-lg text-[#111111] opacity-75">
+          <span className="mr-2 text-md md:text-lg text-[#111111] opacity-75">
             #{tags[0]}
           </span>
           <span className="mr-2 text-lg text-[#111111] opacity-75">
