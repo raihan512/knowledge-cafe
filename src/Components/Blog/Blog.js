@@ -2,13 +2,9 @@ import React from "react";
 import { BsBookmark, BsBookmarkFill } from "react-icons/bs";
 import { Toaster } from "react-hot-toast";
 const Blog = ({ blog, calculateMin, handleBookMark, bookmark }) => {
-  const { id, img, title, date, time, author, autohorImg, tags, booked } = blog;
+  const { id, img, title, date, time, author, autohorImg, tags } = blog;
 
-  let isBooked;
-
-  for (let item of bookmark) {
-    isBooked = item.id === id;
-  }
+  let isBooked = bookmark.find((item) => item.id === id);
 
   return (
     <div className="py-5 border-b">

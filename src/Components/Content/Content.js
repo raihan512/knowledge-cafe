@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Blogs from "../Blogs/Blogs";
 import Bookmarks from "../Bookmarks/Bookmarks";
-import toast, { Toaster } from "react-hot-toast";
+import toast from "react-hot-toast";
+import { handleDb, getLocalBookmark } from "../Database/Database";
 
 const Content = () => {
   const [bookmark, setBookMark] = useState([]);
@@ -18,6 +19,21 @@ const Content = () => {
       .then((data) => setBlogs(data));
   }, []);
 
+  useEffect(() => {
+    const bookmarked = getLocalBookmark();
+    let addedBooked = [];
+    for (let booked in bookmarked) {
+      const addedBookedItem = blogs.find(
+        (blog) => blog.id === parseInt(booked)
+      );
+      if (addedBookedItem) {
+        addedBookedItem.booked = true;
+        addedBooked.push(addedBookedItem);
+      }
+    }
+    setBookMark(addedBooked);
+  }, [blogs]);
+
   const handleBookMark = (blog) => {
     const booked = bookmark.find((bookItem) => bookItem.id === blog.id);
     if (!booked) {
@@ -30,6 +46,7 @@ const Content = () => {
       setBookMark(remain);
       toast.error(`Blog id ${blog.id} has been removed`);
     }
+    handleDb(blog.id);
   };
   return (
     <div className="grid grid-cols-6 gap-10 my-5">
