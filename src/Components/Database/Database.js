@@ -26,4 +26,20 @@ const getLocalBookmark = () => {
   return storedBookmark;
 };
 
-export { handleDb, getLocalBookmark };
+const handleMin = (min) => {
+  localStorage.setItem("cafe-knowledge-time", min);
+};
+
+const getSavedMin = () => {
+  let savedMin;
+  const adedMin = localStorage.getItem("cafe-knowledge-time");
+  if (adedMin) {
+    savedMin = JSON.parse(adedMin);
+  } else {
+    savedMin = 0;
+  }
+
+  return savedMin;
+};
+
+export { handleDb, getLocalBookmark, handleMin, getSavedMin };

@@ -2,7 +2,12 @@ import React, { useEffect, useState } from "react";
 import Blogs from "../Blogs/Blogs";
 import Bookmarks from "../Bookmarks/Bookmarks";
 import toast from "react-hot-toast";
-import { handleDb, getLocalBookmark } from "../Database/Database";
+import {
+  handleDb,
+  getLocalBookmark,
+  handleMin,
+  getSavedMin,
+} from "../Database/Database";
 
 const Content = () => {
   const [bookmark, setBookMark] = useState([]);
@@ -11,7 +16,13 @@ const Content = () => {
 
   const calculateMin = (time) => {
     setMin(min + time);
+    handleMin(min + time);
   };
+
+  useEffect(() => {
+    const getMin = getSavedMin();
+    setMin(getMin);
+  }, []);
 
   useEffect(() => {
     fetch("blog.json")
