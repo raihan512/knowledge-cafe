@@ -69,7 +69,7 @@ const Content = () => {
           bookmark={bookmark}
         ></Blogs>
       </div>
-      <div className="w-11/12 md:4/12 lg:w-3/12 sticky top-0">
+      <div className="w-11/12 md:4/12 lg:w-3/12 md:sticky top-0">
         <Bookmarks min={min} bookmark={bookmark}></Bookmarks>
       </div>
     </div>
