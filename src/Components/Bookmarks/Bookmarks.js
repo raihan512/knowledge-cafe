@@ -3,7 +3,7 @@ import "./Bookmark.css";
 
 const Bookmarks = ({ min, bookmark }) => {
   return (
-    <div className="sticky top-0">
+    <div>
       <div className="p-5 border border-[#6047EC] bg-[#6047EC]/[.10] rounded-md">
         <p className="text-[#6047EC] font-bold text-lg md:text-xl">
           Spent time on read: {min} min

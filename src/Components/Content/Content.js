@@ -60,7 +60,7 @@ const Content = () => {
     handleDb(blog.id);
   };
   return (
-    <div className="flex flex-col-reverse md:flex-row items-center md:justify-between mt-10">
+    <div className="flex flex-col-reverse md:flex-row items-center md:items-start md:justify-between mt-10">
       <div className="w-11/12 md:w-8/12 mr-5">
         <Blogs
           calculateMin={calculateMin}
@@ -69,7 +69,7 @@ const Content = () => {
           bookmark={bookmark}
         ></Blogs>
       </div>
-      <div className="w-11/12 md:4/12 lg:w-3/12">
+      <div className="w-11/12 md:4/12 lg:w-3/12 sticky top-0">
         <Bookmarks min={min} bookmark={bookmark}></Bookmarks>
       </div>
     </div>
